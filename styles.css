@@ -1,0 +1,32 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0055ff;
+    /* 파란색 배경 */
+}
+
+.centered {
+    font-size: 64px;
+    font-weight: bold;
+    /* 볼드체 */
+    color: white;
+    /* 하얀색 글씨 */
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
